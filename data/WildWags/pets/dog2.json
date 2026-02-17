@@ -1,0 +1,322 @@
+{
+	"isCropped": false,
+	"frameDimensions": {
+		"w": 32,
+		"h": 32
+	},
+	"actions": {
+		"eat-down": {
+			"source": "assets/WildWags/pets/dog2/EATING.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"eat-left": {
+			"source": "assets/WildWags/pets/dog2/EATING.png",
+			"startY": 32,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"eat-up": {
+			"source": "assets/WildWags/pets/dog2/EATING.png",
+			"startY": 64,
+			"frames": 2,
+			"defaultFps": 12
+		},
+		"eat-right": {
+			"source": "assets/WildWags/pets/dog2/EATING.png",
+			"startY": 96,
+			"frames": 4,
+			"defaultFps": 12
+		},
+
+		"lay-down-action": {
+			"source": "assets/WildWags/pets/dog2/LAYING.png",
+			"startY": 0,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"lay-down-bark": {
+			"source": "assets/WildWags/pets/dog2/LAYING.png",
+			"startY": 32,
+			"frames": 5,
+			"defaultFps": 12
+		},
+		"lay-left-action": {
+			"source": "assets/WildWags/pets/dog2/LAYING.png",
+			"startY": 64,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"lay-left-bark": {
+			"source": "assets/WildWags/pets/dog2/LAYING.png",
+			"startY": 96,
+			"frames": 5,
+			"defaultFps": 12
+		},
+		"lay-up-action": {
+			"source": "assets/WildWags/pets/dog2/LAYING.png",
+			"startY": 128,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"lay-up-still": {
+			"source": "assets/WildWags/pets/dog2/LAYING.png",
+			"startY": 160,
+			"frames": 1,
+			"defaultFps": 12
+		},
+		"lay-right-action": {
+			"source": "assets/WildWags/pets/dog2/LAYING.png",
+			"startY": 192,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"lay-right-bark": {
+			"source": "assets/WildWags/pets/dog2/LAYING.png",
+			"startY": 224,
+			"frames": 4,
+			"defaultFps": 12
+		},
+
+		"playful-down": {
+			"source": "assets/WildWags/pets/dog2/PLAYFUL.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"playful-left": {
+			"source": "assets/WildWags/pets/dog2/PLAYFUL.png",
+			"startY": 32,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"playful-up": {
+			"source": "assets/WildWags/pets/dog2/PLAYFUL.png",
+			"startY": 64,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"playful-right": {
+			"source": "assets/WildWags/pets/dog2/PLAYFUL.png",
+			"startY": 96,
+			"frames": 4,
+			"defaultFps": 12
+		},
+
+		"run-down": {
+			"source": "assets/WildWags/pets/dog2/RUNNING.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"run-down-bark": {
+			"source": "assets/WildWags/pets/dog2/RUNNING.png",
+			"startY": 32,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"run-left": {
+			"source": "assets/WildWags/pets/dog2/RUNNING.png",
+			"startY": 64,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"run-left-bark": {
+			"source": "assets/WildWags/pets/dog2/RUNNING.png",
+			"startY": 96,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"run-up": {
+			"source": "assets/WildWags/pets/dog2/RUNNING.png",
+			"startY": 128,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"run-right": {
+			"source": "assets/WildWags/pets/dog2/RUNNING.png",
+			"startY": 160,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"run-right-bark": {
+			"source": "assets/WildWags/pets/dog2/RUNNING.png",
+			"startY": 192,
+			"frames": 3,
+			"defaultFps": 12
+		},
+
+		"sit-down-action": {
+			"source": "assets/WildWags/pets/dog2/SITTING.png",
+			"startY": 0,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"sit-down-bark": {
+			"source": "assets/WildWags/pets/dog2/SITTING.png",
+			"startY": 32,
+			"frames": 5,
+			"defaultFps": 12
+		},
+		"sit-left-action": {
+			"source": "assets/WildWags/pets/dog2/SITTING.png",
+			"startY": 64,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"sit-left-bark": {
+			"source": "assets/WildWags/pets/dog2/SITTING.png",
+			"startY": 96,
+			"frames": 5,
+			"defaultFps": 12
+		},
+		"sit-left-pant": {
+			"source": "assets/WildWags/pets/dog2/SITTING.png",
+			"startY": 128,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"sit-up-action": {
+			"source": "assets/WildWags/pets/dog2/SITTING.png",
+			"startY": 160,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"sit-up-still": {
+			"source": "assets/WildWags/pets/dog2/SITTING.png",
+			"startY": 192,
+			"frames": 1,
+			"defaultFps": 12
+		},
+		"sit-up": {
+			"source": "assets/WildWags/pets/dog2/SITTING.png",
+			"startY": 224,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"sit-right-action": {
+			"source": "assets/WildWags/pets/dog2/SITTING.png",
+			"startY": 256,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"sit-right-bark": {
+			"source": "assets/WildWags/pets/dog2/SITTING.png",
+			"startY": 288,
+			"frames": 5,
+			"defaultFps": 12
+		},
+		"sit-right-pant": {
+			"source": "assets/WildWags/pets/dog2/SITTING.png",
+			"startY": 320,
+			"frames": 4,
+			"defaultFps": 12
+		},
+
+		"sleep-left": {
+			"source": "assets/WildWags/pets/dog2/SLEEPING.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"sleep-right": {
+			"source": "assets/WildWags/pets/dog2/SLEEPING.png",
+			"startY": 32,
+			"frames": 4,
+			"defaultFps": 12
+		},
+
+		"stand-down-bark": {
+			"source": "assets/WildWags/pets/dog2/STANDING.png",
+			"startY": 0,
+			"frames": 5,
+			"defaultFps": 12
+		},
+		"stand-down-pant": {
+			"source": "assets/WildWags/pets/dog2/STANDING.png",
+			"startY": 32,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"stand-left-bark": {
+			"source": "assets/WildWags/pets/dog2/STANDING.png",
+			"startY": 64,
+			"frames": 5,
+			"defaultFps": 12
+		},
+		"stand-left-pant": {
+			"source": "assets/WildWags/pets/dog2/STANDING.png",
+			"startY": 96,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"stand-up-still": {
+			"source": "assets/WildWags/pets/dog2/STANDING.png",
+			"startY": 128,
+			"frames": 1,
+			"defaultFps": 12
+		},
+		"stand-up": {
+			"source": "assets/WildWags/pets/dog2/STANDING.png",
+			"startY": 160,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"stand-right-bark": {
+			"source": "assets/WildWags/pets/dog2/STANDING.png",
+			"startY": 192,
+			"frames": 5,
+			"defaultFps": 12
+		},
+		"stand-right-pant": {
+			"source": "assets/WildWags/pets/dog2/STANDING.png",
+			"startY": 224,
+			"frames": 4,
+			"defaultFps": 12
+		},
+
+		"walk-down": {
+			"source": "assets/WildWags/pets/dog2/WALKING.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"walk-down-bark": {
+			"source": "assets/WildWags/pets/dog2/WALKING.png",
+			"startY": 32,
+			"frames": 2,
+			"defaultFps": 12
+		},
+		"walk-left": {
+			"source": "assets/WildWags/pets/dog2/WALKING.png",
+			"startY": 64,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"walk-left-bark": {
+			"source": "assets/WildWags/pets/dog2/WALKING.png",
+			"startY": 96,
+			"frames": 2,
+			"defaultFps": 12
+		},
+		"walk-up": {
+			"source": "assets/WildWags/pets/dog2/WALKING.png",
+			"startY": 128,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"walk-right": {
+			"source": "assets/WildWags/pets/dog2/WALKING.png",
+			"startY": 160,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"walk-right-bark": {
+			"source": "assets/WildWags/pets/dog2/WALKING.png",
+			"startY": 192,
+			"frames": 2,
+			"defaultFps": 12
+		}
+	}
+}

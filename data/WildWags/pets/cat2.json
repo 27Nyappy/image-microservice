@@ -1,0 +1,209 @@
+{
+	"isCropped": false,
+	"frameDimensions": {
+		"w": 32,
+		"h": 32
+	},
+	"actions": {
+		"eat-down": {
+			"source": "assets/WildWags/pets/cat2/EATING.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"eat-left": {
+			"source": "assets/WildWags/pets/cat2/EATING.png",
+			"startY": 32,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"eat-up": {
+			"source": "assets/WildWags/pets/cat2/EATING.png",
+			"startY": 64,
+			"frames": 2,
+			"defaultFps": 12
+		},
+		"eat-right": {
+			"source": "assets/WildWags/pets/cat2/EATING.png",
+			"startY": 96,
+			"frames": 4,
+			"defaultFps": 12
+		},
+
+		"lick-down": {
+			"source": "assets/WildWags/pets/cat2/LICKING.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"lick-left": {
+			"source": "assets/WildWags/pets/cat2/LICKING.png",
+			"startY": 32,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"lick-up": {
+			"source": "assets/WildWags/pets/cat2/LICKING.png",
+			"startY": 64,
+			"frames": 2,
+			"defaultFps": 12
+		},
+		"lick-right": {
+			"source": "assets/WildWags/pets/cat2/LICKING.png",
+			"startY": 96,
+			"frames": 4,
+			"defaultFps": 12
+		},
+
+		"run-down": {
+			"source": "assets/WildWags/pets/cat2/RUNNING.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"run-left": {
+			"source": "assets/WildWags/pets/cat2/RUNNING.png",
+			"startY": 32,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"run-up": {
+			"source": "assets/WildWags/pets/cat2/RUNNING.png",
+			"startY": 64,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"run-right": {
+			"source": "assets/WildWags/pets/cat2/RUNNING.png",
+			"startY": 96,
+			"frames": 4,
+			"defaultFps": 12
+		},
+
+		"sit-down-action": {
+			"source": "assets/WildWags/pets/cat2/SITTING.png",
+			"startY": 0,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"sit-down": {
+			"source": "assets/WildWags/pets/cat2/SITTING.png",
+			"startY": 32,
+			"frames": 6,
+			"defaultFps": 12
+		},
+		"sit-left-action": {
+			"source": "assets/WildWags/pets/cat2/SITTING.png",
+			"startY": 64,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"sit-left": {
+			"source": "assets/WildWags/pets/cat2/SITTING.png",
+			"startY": 96,
+			"frames": 6,
+			"defaultFps": 12
+		},
+		"sit-up-action": {
+			"source": "assets/WildWags/pets/cat2/SITTING.png",
+			"startY": 128,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"sit-up": {
+			"source": "assets/WildWags/pets/cat2/SITTING.png",
+			"startY": 160,
+			"frames": 5,
+			"defaultFps": 12
+		},
+		"sit-right-action": {
+			"source": "assets/WildWags/pets/cat2/SITTING.png",
+			"startY": 192,
+			"frames": 3,
+			"defaultFps": 12
+		},
+		"sit-right": {
+			"source": "assets/WildWags/pets/cat2/SITTING.png",
+			"startY": 224,
+			"frames": 6,
+			"defaultFps": 12
+		},
+
+		"sleep-left": {
+			"source": "assets/WildWags/pets/cat2/SLEEPING.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"sleep-right": {
+			"source": "assets/WildWags/pets/cat2/SLEEPING.png",
+			"startY": 32,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"sleep-left-relaxed": {
+			"source": "assets/WildWags/pets/cat2/SLEEPING.png",
+			"startY": 64,
+			"startX": 32,
+			"frames": 1,
+			"defaultFps": 12
+		},
+		"sleep-right-relaxed": {
+			"source": "assets/WildWags/pets/cat2/SLEEPING.png",
+			"startY": 64,
+			"startX": 64,
+			"frames": 1,
+			"defaultFps": 12
+		},
+
+		"stand-down": {
+			"source": "assets/WildWags/pets/cat2/STANDING.png",
+			"startY": 0,
+			"frames": 6,
+			"defaultFps": 12
+		},
+		"stand-left": {
+			"source": "assets/WildWags/pets/cat2/STANDING.png",
+			"startY": 32,
+			"frames": 6,
+			"defaultFps": 12
+		},
+		"stand-up": {
+			"source": "assets/WildWags/pets/cat2/STANDING.png",
+			"startY": 64,
+			"frames": 6,
+			"defaultFps": 12
+		},
+		"stand-right": {
+			"source": "assets/WildWags/pets/cat2/STANDING.png",
+			"startY": 96,
+			"frames": 6,
+			"defaultFps": 12
+		},
+
+		"walk-down": {
+			"source": "assets/WildWags/pets/cat2/WALKING.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"walk-left": {
+			"source": "assets/WildWags/pets/cat2/WALKING.png",
+			"startY": 32,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"walk-up": {
+			"source": "assets/WildWags/pets/cat2/WALKING.png",
+			"startY": 64,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"walk-right": {
+			"source": "assets/WildWags/pets/cat2/WALKING.png",
+			"startY": 96,
+			"frames": 4,
+			"defaultFps": 12
+		}
+	}
+}
