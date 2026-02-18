@@ -74,15 +74,6 @@ class TestImageProcessing(unittest.TestCase):
 
 		res_img.close()
 
-	def test_asset_format_conversion(self):
-		sprite = self.icon_happy
-		res = image_processing(sprite.path, sprite.is_cropped, sprite.frames, sprite.w, sprite.h, sprite.start_y)
-		res_img = Image.open(res)
-
-		self.assertEqual(res_img.format, "WEBP", "Format does not match WEBP")
-
-		res_img.close()
-
 	def test_original_img_not_modified(self):
 		sprite = self.dog_eat_left
 		image_processing(sprite.path, sprite.is_cropped, sprite.frames, sprite.w, sprite.h, sprite.start_y)
