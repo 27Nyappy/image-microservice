@@ -3,6 +3,7 @@ packages = [{ include = "src" }]
 
 [tool.poetry.scripts]
 start = "src.service:main"
+tests = "pytest:console_main"
 
 [project]
 name = "image-microservice"
@@ -26,3 +27,7 @@ dependencies = [
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+[dependency-groups]
+test = [
+    "pytest (>=9.0.2,<10.0.0)"
+]

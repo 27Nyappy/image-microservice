@@ -40,3 +40,13 @@ poetry run start
 ```
 
 This executes the `main()` function in `src/service.py`
+
+## Running the tests
+
+Use the custom Poetry script to run the existing tests using pytest.
+
+```
+poetry run tests
+```
+
+This runs all the files that have names prepended with `test_` under the `tests/` folder
