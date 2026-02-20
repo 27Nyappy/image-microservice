@@ -1,0 +1,27 @@
+{
+	"isCropped": false,
+	"frameDimensions": {
+		"w": 65,
+		"h": 65
+	},
+	"actions": {
+		"burn": {
+			"source": "assets/FireSTORM/effects/burnEffects.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"poison": {
+			"source": "assets/FireSTORM/effects/poisonEffects.png",
+			"startY": 0,
+			"frames": 4,
+			"defaultFps": 12
+		},
+		"freeze": {
+			"source": "assets/FireSTORM/effects/freezeEffects.png",
+			"startY": 0,
+			"frames": 3,
+			"defaultFps": 12
+		}
+	}
+}
