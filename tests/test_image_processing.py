@@ -44,6 +44,34 @@ class TestImageProcessing(unittest.TestCase):
 			h=32,
 			start_y=0
 		)
+		# "burnEffect": {
+		# "source": "tests/test-assets/burnEffect.png",
+		# "startY": 0,
+		# "frames": 4,
+		# defaultFPS: 12
+		# }
+		self.burnEffect = Sprite(
+			path="test/test-assets/burnEffect.png",
+			is_cropped=False,
+			frames=4,
+			w=65,
+			h=65,
+   			start_y=0
+		)
+		# "freeze-icon": {
+		# "source": "tests/test-assets/freeze-icon.png",
+		# "startY": 0,
+		# "frames": 1,
+		# defaultFPS: 12
+		# }
+		self.burnEffect = Sprite(
+			path="test/test-assets/freeze-icon.png",
+			is_cropped=False,
+			frames=1,
+			w=12,
+			h=12,
+   			start_y=0
+		)
 
 	def test_sprite_crop(self):
 		sprite = self.dog_eat_left
@@ -52,7 +80,7 @@ class TestImageProcessing(unittest.TestCase):
 
 		self.assertEqual(res_img.size[0], 128, "Width does not match full frames width")
 		self.assertEqual(res_img.size[1], 32, "Height does not match sprite height")
-		
+
 		res_img.close()
 
 	def test_sprite_no_crop(self):
