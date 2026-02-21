@@ -5,31 +5,31 @@
 		"h": 32
 	},
 	"cat-hungry": {
-		"src": "assets/WildWags/icons/cat-hungry.png",
+		"src": "assets/icons/WildWags/cat-hungry.png",
 		"startY": 0,
 		"frames": 3,
 		"defaultFps": 12
 	},
 	"dog-hungry": {
-		"src": "assets/WildWags/icons/dog-hungry.png",
+		"src": "assets/icons/WildWags/dog-hungry.png",
 		"startY": 0,
 		"frames": 3,
 		"defaultFps": 12
 	},
 	"eating": {
-		"src": "assets/WildWags/icons/eating.png",
+		"src": "assets/icons/WildWags/eating.png",
 		"startY": 0,
 		"frames": 3,
 		"defaultFps": 12
 	},
 	"happy": {
-		"src": "assets/WildWags/icons/happy.png",
+		"src": "assets/icons/WildWags/happy.png",
 		"startY": 0,
 		"frames": 3,
 		"defaultFps": 12
 	},
 	"sad": {
-		"src": "assets/WildWags/icons/sad.png",
+		"src": "assets/icons/WildWags/sad.png",
 		"startY": 0,
 		"frames": 3,
 		"defaultFps": 12
