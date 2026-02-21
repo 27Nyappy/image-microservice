@@ -76,6 +76,7 @@ def get_icon(app_id, icon_name):
         abort(404)
 
     src = data["source"]
+    frames = data["frames"]
     w = data["frameDimensions"]["w"]
     h = data["frameDimensions"]["h"]
     is_cropped = data["isCropped"]
@@ -85,7 +86,7 @@ def get_icon(app_id, icon_name):
     else:
         start_x = 0
 
-    buffer = image_processing(src, is_cropped, w, h, start_y, start_x)
+    buffer = image_processing(src, is_cropped, frames, w, h, start_y, start_x)
     return send_file(buffer, mimetype="image/webp")
 
 
