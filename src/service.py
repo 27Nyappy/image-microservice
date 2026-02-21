@@ -44,23 +44,24 @@ def get_effect(app_id, effect):
     data_path = f"data/{app_id}/effects/{effect}.json"
     try:
         with open(data_path) as file:
-         	data = json.load(file)
-    except FileNotFoundError:
-        abort(404)
-    src = data["source"]
-    frames = data["frames"]
-    is_stacked = data["isStacked"]
-    w=data["frameDimensions"]["w"]
-    h=data["frameDimensions"]["h"]
-    is_cropped = data["isCropped"]
-    start_y = data["startY"]
-    if "startX" in data:
-        start_x = data["startX"]
-    else:
-        start_x = 0
+            data = json.load(file)
+            src = data["source"]
+            frames = data["frames"]
+            is_stacked = data["isStacked"]
+            w=data["frameDimensions"]["w"]
+            h=data["frameDimensions"]["h"]
+            is_cropped = data["isCropped"]
+            start_y = data["startY"]
+            if "startX" in data:
+                start_x = data["startX"]
+            else:
+                start_x = 0
 
-    buffer = image_processing(src, is_cropped, frames, w, h, start_y, start_x, is_stacked=is_stacked)
-    return send_file(buffer, mimetype="image/webp")
+            buffer = image_processing(src, is_cropped, frames, w, h, start_y, start_x, is_stacked=is_stacked)
+
+            return send_file(buffer, mimetype="image/webp")
+    except:
+        abort(404)
 
 
 @app.route("/<app_id>/icons/<icon_name>", methods=["GET"])
@@ -71,23 +72,23 @@ def get_icon(app_id, icon_name):
     data_path = f"data/{app_id}/icons/{icon_name}.json"
     try:
         with open(data_path) as file:
-        	data = json.load(file)
-    except FileNotFoundError:
+            data = json.load(file)
+            src = data["source"]
+            frames = data["frames"]
+            w = data["frameDimensions"]["w"]
+            h = data["frameDimensions"]["h"]
+            is_cropped = data["isCropped"]
+            start_y = data["startY"]
+            if "startX" in data:
+                start_x = data["startX"]
+            else:
+                start_x = 0
+
+            buffer = image_processing(src, is_cropped, frames, w, h, start_y, start_x)
+
+            return send_file(buffer, mimetype="image/webp")
+    except:
         abort(404)
-
-    src = data["source"]
-    frames = data["frames"]
-    w = data["frameDimensions"]["w"]
-    h = data["frameDimensions"]["h"]
-    is_cropped = data["isCropped"]
-    start_y = data["startY"]
-    if "startX" in data:
-        start_x = data["startX"]
-    else:
-        start_x = 0
-
-    buffer = image_processing(src, is_cropped, frames, w, h, start_y, start_x)
-    return send_file(buffer, mimetype="image/webp")
 
 
 def main():
