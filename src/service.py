@@ -49,7 +49,7 @@ def get_effect(app_id, effect):
         abort(400)
     src = data["source"]
     frames = data["frames"]
-    rows = data["rows"]
+    is_stacked = data["isStacked"]
     w=data["frameDimensions"]["w"]
     h=data["frameDimensions"]["h"]
     is_cropped = data["isCropped"]
@@ -59,7 +59,7 @@ def get_effect(app_id, effect):
     else:
         start_x = 0
 
-    buffer = image_processing(src, is_cropped, frames, w, h, start_y, start_x, rows=rows)
+    buffer = image_processing(src, is_cropped, frames, w, h, start_y, start_x, is_stacked=is_stacked)
     return send_file(buffer, mimetype="image/webp")
 
 
