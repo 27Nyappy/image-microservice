@@ -15,25 +15,26 @@ def get_character_actions(app_id, resource_name, action):
 		abort(404)
 
 	data_path = f"data/{app_id}/characters/{resource_name}.json"
-	with open(data_path) as file:
-		data = json.load(file)
+	try:
+		with open(data_path) as file:
+			data = json.load(file)
+			action_data = data["actions"][action]
+			src = action_data["source"]
+			is_cropped = data["isCropped"]
+			frames = action_data["frames"]
+			w = data["frameDimensions"]["w"]
+			h = data["frameDimensions"]["h"]
+			start_y = action_data["startY"]
+			if "startX" in action_data:
+				start_x = action_data["startX"]
+			else:
+				start_x = 0
+			
+			buffer = image_processing(src, is_cropped, frames, w, h, start_y, start_x)
 
-		action_data = data["actions"][action]
-		src = action_data["source"]
-		is_cropped = data["isCropped"]
-		frames = action_data["frames"]
-		w = data["frameDimensions"]["w"]
-		h = data["frameDimensions"]["h"]
-		start_y = action_data["startY"]
-		if "startX" in action_data:
-			start_x = action_data["startX"]
-		else:
-			start_x = 0
-
-
-		buffer = image_processing(src, is_cropped, frames, w, h, start_y, start_x)
-
-		return send_file(buffer, mimetype="image/webp")
+			return send_file(buffer, mimetype="image/webp")
+	except:
+		abort(404)
 
 
 @app.route("/<app_id>/effects/<effect>", methods=["GET"])
