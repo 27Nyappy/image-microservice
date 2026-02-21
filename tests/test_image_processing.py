@@ -76,7 +76,7 @@ class TestImageProcessing(unittest.TestCase):
 
 		self.assertEqual(res_img.size[0], 201, "Width does not match full frames width")
 		self.assertEqual(res_img.size[1], 67, "Height does not match sprite height")
-		res_img.show()
+
 		res_img.close()
 
 	def test_sprite_no_crop(self):
