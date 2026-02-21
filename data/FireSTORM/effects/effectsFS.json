@@ -1,24 +1,25 @@
 {
 	"isCropped": false,
+	"isStacked": true,
 	"frameDimensions": {
-		"w": 65,
-		"h": 65
+		"w": 67,
+		"h": 67
 	},
 	"actions": {
 		"burn": {
-			"source": "assets/FireSTORM/effects/burnEffects.png",
+			"source": "assets/effects/FireSTORM/burnEffects.png",
 			"startY": 0,
 			"frames": 4,
 			"defaultFps": 12
 		},
 		"poison": {
-			"source": "assets/FireSTORM/effects/poisonEffects.png",
+			"source": "assets/effects/FireSTORM/poisonEffects.png",
 			"startY": 0,
 			"frames": 4,
 			"defaultFps": 12
 		},
 		"freeze": {
-			"source": "assets/FireSTORM/effects/freezeEffects.png",
+			"source": "assets/effects/FireSTORM/freezeEffects.png",
 			"startY": 0,
 			"frames": 3,
 			"defaultFps": 12
