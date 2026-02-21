@@ -30,15 +30,22 @@ def get_character_actions(app_id, resource_name, action):
 		else:
 			start_x = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 10e9b43422e64cf259ad10253cf5054c5fbd21f4
+=======
+		
+>>>>>>> d2dfb70f3ea094d204824f6cdb5e089df13c088c
 		buffer = image_processing(src, is_cropped, frames, w, h, start_y, start_x)
 
 		return send_file(buffer, mimetype="image/webp")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d2dfb70f3ea094d204824f6cdb5e089df13c088c
 
 @app.route("/<app_id>/effects/<effect>", methods=["GET"])
 def get_effect(app_id, effect):
@@ -93,8 +100,11 @@ def get_icon(app_id, icon_name):
     return send_file(buffer, mimetype="image/webp")
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> 10e9b43422e64cf259ad10253cf5054c5fbd21f4
+=======
+>>>>>>> d2dfb70f3ea094d204824f6cdb5e089df13c088c
 def main():
 	port = 8000
 	print("\nImage Service started in port", port, "\n")
