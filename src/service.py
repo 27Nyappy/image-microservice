@@ -46,7 +46,7 @@ def get_effect(app_id, effect):
         with open(data_path) as file:
          	data = json.load(file)
     except FileNotFoundError:
-        abort(400)
+        abort(404)
     src = data["source"]
     frames = data["frames"]
     is_stacked = data["isStacked"]
